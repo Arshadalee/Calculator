@@ -6,7 +6,7 @@ tools{
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Arshadalee/tiktakapp.git'
+                git branch: 'master', url: 'https://github.com/Arshadalee/calculator.git'
             }
         }
 
